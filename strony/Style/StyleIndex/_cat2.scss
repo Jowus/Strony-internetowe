@@ -1,12 +1,14 @@
 .cat2 {
   border-bottom: 0.3em solid $color2;
-  border-left: 0.7em solid $color2;
+  border-top: 0.4em solid $color2;
+  border-right: 0.4em solid $color2;
   &__content {
     width: 100vw;
     height: auto;
     @include center;
     display: flex;
     flex-wrap: wrap;
+    justify-content: left;
     flex: 1;
     gap: 50px;
     &--image {

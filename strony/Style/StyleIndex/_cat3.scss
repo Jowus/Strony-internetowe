@@ -9,6 +9,7 @@
     @include center;
     display: flex;
     flex-wrap: wrap-reverse;
+    justify-content: left;
     gap: 50px;
 
     &--image {
